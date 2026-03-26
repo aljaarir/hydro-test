@@ -1,2 +1,5 @@
-def is_palindrome(s):
-    return s == s[::-1]
+def fibonacci(n):
+    a, b = 0, 1
+    for _ in range(n):
+        a, b = b, a + b
+    return a
